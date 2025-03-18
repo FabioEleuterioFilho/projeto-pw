@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RB Lava Jato</title>
     <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
 </head>
 
 <body>
-
     <div class="login-container">
-        <h2>Login RB lava Jato</h2>
-        <form>
+        <h2>Login RB Lava Jato</h2>
+        <form id="loginForm">
             <div class="input-group">
                 <label for="txtUsuario">Usuário</label>
                 <input type="text" id="txtUsuario" name="txtUsuario" placeholder="Digite seu usuário" required>
@@ -20,15 +20,11 @@
             <div class="input-group">
                 <label for="txtSenha">Senha</label>
                 <input type="password" id="txtSenha" name="txtSenha" placeholder="Digite sua senha" required>
-                <a href="#">Esqueceu sua senha ?</a>
-
+                <a href="#">Esqueceu sua senha?</a>
             </div>
-
-            <button type="button" onclick="window.location.href='indice.html';">Entrar</button>
-            <p>Não tem Cadastro ?</p>
+            <button type="submit">Entrar</button>
+            <p>Não tem Cadastro?</p>
             <button type="button">Cadastrar</button>
-
-
         </form>
     </div>
 </body>
